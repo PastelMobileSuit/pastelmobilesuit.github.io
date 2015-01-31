@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mechanics</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+	
+	 <div class="portfolio-modal">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Creation Mechanic</h2>
+                            <hr class="star-primary">
+                            <p><a href=".." class="btn btn-primary" role="button">Homepage</a></p>
+                            <img src="../img/Screenshots/TT/FB1.png" class="img-responsive img-centered" alt="">
+                            <p>My largest mechanic at TT so far has been the Creation mechanic, a major mechanic built for the <i>Fantastic Beasts and Where to Find Them</i> story pack. I architected the structure of the code myself with input from my lead, and worked alongside designers, artists, tech artists, and sound designers to ensure the mechanic was polished and well-implemented. All the behaviour described below is controlled by my code.</p>
+                            <br>
+                            <img src="../img/Screenshots/TT/Toypad.jpg" class="img-responsive img-centered" alt="">
+                            <p>The mechanic makes use of the <i>Lego Dimensions</i> toypad, pictured above. The toypad has three "docks", areas where players can place a toy. When a toy is placed on a dock, that character appears in-game. Each dock is white, but can change color due to LEDs in the toypad.</p>
+                            <br>
+                            <img src="../img/Screenshots/TT/FB2.png" class="img-responsive img-centered" alt="">
+                            <p>The Creation mechanic takes place near three piles of Lego, which can be seen in the above screenshot (two of them are glowing). When the player activates the mechanic, each of the three docks on the toypad glows a different color. When the player touches a toy to a dock, a corresponding pile of Lego begins to glow, and small pieces of Lego bob and rotate above it. This can be seen on two of the piles in the above screenshot. You can also see, in the lower right corner, a preview of the toypad. The right and middle dock are filled with solid colors, as the player has already touched those docks.</p>
+                            <br>
+                            <img src="../img/Screenshots/TT/FB3.png"  class="img-responsive img-centered" alt="">
+                            <p>After all three toypad docks are touched, a large swarm of small Lego pieces emerges from the piles and rapidly orbit around a single point, which can be seen above. These pieces begin to orbit faster and faster, and eventually explode outwards in a bright flash of light. </p>
+                            <br>
+                            <img src="../img/Screenshots/TT/FB4.png" class="img-responsive img-centered" alt=""><img src="../img/Screenshots/TT/FB6.png" class="img-responsive img-centered" alt="">
+                            <p>When the explosion happens, a creature made of Legos is spawned. The spawned creature is determined based on the order the player touched the docks. There are six possible creatures, two of which can be seen above (an eagle and a snail). After spawning, the creature begins to move on its own upon a predetermined path</p>
+                            <br>
+                            <img src="../img/Screenshots/TT/FB5.png" class="img-responsive img-centered" alt="">
+                            <p>Upon reaching the end of its path, the creature explodes into a shower of light and small Lego bricks, destroying an obstacle in the player's path and signaling the end of the mechanic. This can be seen in the above screenshot.</p>
+                            <br>
+                            <p>As I said above, my code was responsible for handling the entire mechanic. I got experience with physical peripherals, 3D math and physics, animations, 3D movement, and godrays, as well as architecting a major mechanic in a readable and clean way. I also got plenty of experience working with designers, artists, tech artists, and animators to ensure the mechanic was polished, gave the player a good amount of feedback, and incorporated the assets and features that everybody wanted. Additionally, I got to work on optimizing the mechanic, specifically for last-gen consoles.</p>
+                            <br>
+                            <p><a href="http://lego-dimensions.wikia.com/wiki/Creation" class="btn btn-primary" role="button">Page for the Mechanic at the <i>Lego Dimensions</i> Wiki</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="../js/classie.js"></script>
+    <script src="../js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/freelancer.js"></script>
+
+</body>
+
+</html>
