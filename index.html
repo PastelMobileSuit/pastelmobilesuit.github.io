@@ -620,24 +620,29 @@
                                 releases, and have the highest number of commits against the repository.</p>
 
                             <p><a href="https://github.com/puppetlabs/puppet-server">Puppet Server</a> is an
-                                implementation of Puppet's Puppet Master in Clojure. Puppet Server was written in
-                                Clojure using the trapperkeeper service framework, and utilized the
+                                implementation of Puppet's Puppet Master in Clojure. Puppet Server is written in
+                                Clojure using the trapperkeeper service framework, and utilizes the
                                 trapperkeeper-webserver-jetty9 service mentioned above.
-                                It ran on the JVM, and had vastly improved performance over the original Ruby version of
+                                It runs on the JVM, and has vastly improved performance over the original Ruby version
+                                of
                                 the Puppet Master. I was a core developer, and contributed features to both the open
-                                source and enterprise versions of the product, as well as writing tests and performing
+                                source and enterprise versions of the product, in addition to writing tests and
+                                performing
                                 code reviews.</p>
 
                             <p><a href="https://github.com/puppetlabs/puppetlabs-hocon">puppetlabs-hocon</a> is a Puppet
-                                module to handle enforcing the configuration of HOCON configuration files, which we had
-                                standardized on with Puppet Server for all Puppet products moving forwards. As part of
+                                module to handle enforcing the configuration of HOCON configuration files, which,
+                                beginning with Puppet Server, we had
+                                standardized on for configuration for all future Puppet products. As part of
                                 this, I was also involved with
                                 <a href="https://github.com/puppetlabs/Ruby-hocon">Ruby-hocon</a>, a reimplementation of
-                                the <a href="https://github.com/lightbend/config">HOCON library</a> in Ruby. I was a
+                                <a href="https://github.com/lightbend/config">Lightbend's HOCON library</a> in Ruby. I
+                                was a
                                 core developer on these two projects as well, contributing features and tests, handling
                                 releases, and performing code reviews.
-                                As part of the requirements for these projects, I also wrote a new parser for the above
-                                mentioned HOCON library to preserve formatting and ordering, which I did as an open
+                                As part of the requirements for these projects, I also wrote a new parser for the
+                                original Lightbend
+                                HOCON library to preserve formatting and ordering, which I did as an open
                                 source contributor. I worked closely with the library's maintainer to develop the design
                                 of this new parser, and also worked with him to have all my code and tests reviewed to
                                 ensure
